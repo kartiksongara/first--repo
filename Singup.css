@@ -1,0 +1,18 @@
+
+.main{
+    height:729px;
+    width: 100%;
+    background-image: url("./images/snowy-blue-mountains-4k-e5.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+
+.contant{
+    height: 729px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+}
