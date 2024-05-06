@@ -10,6 +10,12 @@ function Singin() {
         setADD({...ADD,[e.target.name]:e.target.value})
     }
 const Verfy=()=>{
+
+
+
+
+
+
     let localdata=[]
     let valid=true;
     if(!ADD.name){
@@ -26,6 +32,11 @@ const Verfy=()=>{
     }
     else if(!ADD.password){
         localdata.password="Password is required"
+
+
+
+
+        
         valid=false
     }
     setError(localdata)
@@ -81,6 +92,19 @@ const Verfy=()=>{
     </div>
     </div>
     </>
+
+
+
+
+
+
+
+
+
+
+
+
+
   )
 }
 
