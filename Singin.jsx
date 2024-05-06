@@ -7,6 +7,7 @@ function Singin() {
     const [Error, setError] = useState([])
 
     const change=(e)=>{
+        // KARTIK IS MY NAME 
         setADD({...ADD,[e.target.name]:e.target.value})
     }
 const Verfy=()=>{
